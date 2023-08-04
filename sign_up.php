@@ -32,13 +32,46 @@ if(isset($_POST["submit"])){
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="navstyle.css">
+		<title>Sign Up</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script>
+			
+			$(function(){
+				
+				$(".toggle").on("click", function(){
+					
+					if($(".item").hasClass("active")){
+						$(".item").removeClass("active");
+					}
+					else{
+						$(".item").addClass("active");
+					}			
+				})
+			});
+					
+		</script>
+	
+	</head>
 <body>
-    <h1>Sign Up</h1>
+
+	<nav>
+		<ul class="menu">
+			<li class="logo"><a href="#"><img src="logo.png"></a></li>
+			<li class="item"><a href="#">Home</a></li>
+			<li class="item"><a href="#">Services</a></li>	
+			<li class="item"><a href="#">About Us</a></li>
+			<li class="item button"><a href="#">Log In</a></li>
+			<li class="item button secondary"><a href="#">Sign Up</a></li>
+			<li class="toggle"><a href="#"><span class="bars"></span></a></li>
+		<ul>
+	</nav>
+	
+	 <h1>Sign Up</h1>
     <form class="" action="" method="post" autocomplete="off">
         <!-- <label for="first_name">First Name : </label> -->
         <input type="text" name="first_name" id="first_name" required value="" placeholder="First Name :"> <br>
@@ -56,7 +89,6 @@ if(isset($_POST["submit"])){
         <button type="submit" name="submit">Sign Up</button>
         <p>Already have an account?<a href="login.php">Login</a></p>
     </form>
-    
-    
+	
 </body>
 </html>
