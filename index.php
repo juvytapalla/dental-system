@@ -45,7 +45,7 @@ else{
 			<li class="item"><a href="#">Home</a></li>
 			<li class="item"><a href="#">Services</a></li>	
 			<li class="item"><a href="#">About Us</a></li>
-			<li class="item button"><a href="#">Log In</a></li>
+			<li class="item button"><a href="login.php">Log In</a></li>
 			<li class="item button secondary"><a href="#">Sign Up</a></li>
 			<li class="toggle"><a href="#"><span class="bars"></span></a></li>
 		<ul>
