@@ -1,0 +1,487 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+body {
+  margin: 56px 0 0 0;
+  background-color: #fff;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #000;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+  max-width: 968px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.grid {
+  display: grid;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.section {
+  padding: 72px 0 16px;
+}
+
+.section__title {
+  font-size: clamp(1.25rem, 0.947rem + 1.5152vw, 1.875rem);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section__description {
+  font-size: clamp(0.9375rem, 0.8466rem + 0.4545vw, 1.125rem);
+  padding: 0 32px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+
+/*=============== HOME ===============*/
+.home {
+  background-color: #0B212F;
+}
+
+.home__container {
+  padding-top: 24px;
+  row-gap: 24px;
+}
+
+.home__img {
+  max-width: 320px;
+  justify-self: center;
+}
+
+.home__data {
+  text-align: center;
+}
+
+.home__title {
+  font-size: clamp(1.5625rem, 0.8049rem + 3.7879vw, 3.125rem);
+  line-height: 140%;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+
+
+/*=============== BUTTONS ===============*/
+.button {
+  display: inline-block;
+  background-color: #47B5FF;
+  color: #fff;
+  padding: 18.5px 44px;
+  font-weight: 500;
+  border-radius: 48px;
+  transition: .3s;
+  margin-bottom: 50px;
+}
+
+.button:hover {
+  background-color:  rgba(17,107,143,0.877);
+}
+
+.button1 {
+  display: inline-block;
+  background-color: #47B5FF;
+  color: #fff;
+  padding: 15px 30px;
+  font-weight: 500;
+  border-radius: 48px;
+  transition: .3s;
+}
+.button1:hover {
+  background-color:  rgba(17,107,143,0.877);
+}
+
+
+.button2 {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  padding: 12px 30px;
+  font-weight: 500;
+  border-radius: 48px;
+  transition: .3s;
+  border: 2px solid #000;
+}
+
+.button2:hover {
+  background-color: #d9d9d9;
+}
+
+.arrw {
+  color: #1363DF;
+}
+
+
+
+/*=============== BENEFITS ===============*/
+.benefit__container {
+  grid-template-columns: repeat(2, auto);
+  gap: 48px 24px;
+}
+
+.benefit__content {
+  text-align: center;
+}
+
+.benefit__img {
+  width: 70px;
+  transition: .3s;
+}
+
+.benefit__title {
+  font-size: clamp(1rem, 0.8788rem + 0.6061vw, 1.25rem);
+  margin-bottom: 4px;
+}
+
+.benefit__description {
+  font-size: clamp(0.8125rem, 0.7216rem + 0.4545vw, 1rem);
+}
+
+.benefit__img:hover {
+  transform: translateY(-4px);
+}
+
+
+
+/*=============== SERVICES ===============*/
+.service__container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.service__card {
+  display: grid;
+  position: relative;
+  background-color: #DFF6FF;
+  box-shadow: 0 4px 16px hsla(355, 25%, 15%, .1);
+  padding: 24px 16px 16px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.service__img {
+  width: 100px;
+  justify-self: center;
+  margin-bottom: 40px;
+  transition: .3s;
+}
+
+.service__title {
+  font-size: 16px;
+}
+
+.service__descri {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.service__card:hover .service__img {
+  transform: translateY(-4px);
+}
+
+
+/*=============== MEET ===============*/
+.meet__container{
+  grid-template-columns: repeat(2, auto);
+  gap: 25px 2px;
+}
+.img_meet {
+  width: 500px;
+  height: 200px;
+}
+
+
+/*=============== MESSAGE ===============*/
+.message__container {
+  row-gap: 48px;
+  background-color: #d9d9d9;
+  padding: 40px 24px 40px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.message__title {
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.message__button {
+  background-color: #000;
+  width: 100%;
+}
+
+.message__button:hover {
+  background-color: #000;
+}
+
+.img_mess {
+  width: 450px;
+  height: 200px;
+  justify-self: center;
+}
+
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 10px;
+  background: #DFF6FF;
+  border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0B212F;
+  border-radius: 16px;
+}
+
+::selection {
+  color: #fff;
+  background: #1363DF;
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+
+
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .home__img {
+    width: 200px;
+    justify-self: center;
+  }
+
+  .button {
+    margin-bottom: 50px;
+  }
+
+  .benefit__container {
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    gap: 32px 16px;
+  }
+
+  .benefit__container {
+    gap: 16px;
+  }
+
+  .benefit__container {
+    grid-template-columns: repeat(1, 100px);
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .service__container {
+    grid-template-columns: 150px;
+    justify-content: center;
+  }
+  .meet__container{
+    grid-template-columns: repeat(2, auto);
+    gap: 32px;
+  }
+}
+
+
+/* For medium devices */
+@media screen and (min-width: 576px) {
+  .button {
+    margin-bottom: 50px;
+  }
+
+  .benefit__container {
+    grid-template-columns: repeat(2, 180px);
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .service__container {
+    grid-template-columns: repeat(2, 180px);
+    justify-content: center;
+    gap: 32px;
+  }
+  .meet__container{
+    grid-template-columns: repeat(2, auto);
+    gap: 32px;
+  }
+}
+
+
+@media screen and (min-width: 770px) {
+  body {
+    margin: 0;
+  }
+
+  .section {
+    padding: 104px 0 32px;
+  }
+
+  .home__container,
+  .message__container {
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+  }
+
+  .home__container {
+    grid-template-columns: auto auto;
+    grid-template-areas: "column2 column1";
+    column-gap: 16px;
+    padding-top: 150px;
+  }
+
+  .home__img {
+    grid-area: column1;
+    margin-bottom: 40px;
+  }
+
+  .home__data {
+    grid-area: column2;
+    text-align: initial;
+  }
+
+  .button {
+    margin-bottom: 50px;
+  }
+
+  .benefit__container {
+    grid-template-columns: repeat(4, 142px);
+    column-gap: 80px;
+  }
+
+  .service__container {
+    grid-template-columns: repeat(3, 200px);
+    gap: 40px;
+  }
+  .meet__container{
+    grid-template-columns: repeat(3, auto);
+    gap: 32px;
+  }
+}
+
+
+/* For large devices */
+@media screen and (min-width: 992px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    margin-bottom: 50px;
+  }
+
+  .home__container {
+    grid-template-columns: auto auto;
+    grid-template-areas: "column2 column1";
+    column-gap: 16px;
+    padding-top: 150px;
+  }
+
+  .home__img {
+    max-width: 500px;
+    grid-area: column1;
+    margin-bottom: 50px;
+  }
+
+  .home__data {
+    grid-area: column2;
+  }
+
+  .benefit__container {
+    grid-template-columns: repeat(4, 210px);
+    column-gap: 48px;
+    padding-top: 16px;
+  }
+
+  .service__container {
+    padding-top: 32px;
+  }
+
+  .service__card {
+    padding: 32px 24px 24px;
+  }
+
+  .service__img {
+    width: 120px;
+    margin-bottom: 16px;
+  }
+
+  .img_meet {
+    width: 200px;
+  }
+  .meet__container{
+    grid-template-columns: repeat(3, auto);
+    gap: 32px;
+  }
+
+  .message__container {
+    padding: 56px 0;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 64px;
+    justify-content: center;
+  }
+
+  .message__button {
+    width: initial;
+  }
+
+  .message__img {
+    width: 320px;
+  }
+}
