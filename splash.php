@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="img/iconn.ico">
+    <title>Dental Clinic</title>
 </head>
 <body>
     <div class="intro"> 
@@ -45,12 +46,12 @@
 
 </script>   
 <style>
-    *{
-        margin: 0;
-        padding:0;
-        box-sizing: border-box;
-        font-family:'Roboto', sans-serif;
-    }
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
 .logo-header {
     color: #FFFFFF;
     position: absolute;
@@ -61,7 +62,7 @@
 }
 .intro{
     position: fixed;
-    z-index: 1;
+    z-index: 102;
     left: 0;
     top: 0;
     width:100%;
