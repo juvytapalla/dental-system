@@ -52,7 +52,7 @@ if(isset($_POST["submit"])){
 			<input type="email" name="email" id="email" required value="" placeholder="Email"> <br>
 			<input type="password" name="password" id="password" required value="" placeholder="Password"> <br>
 			<input type="password" name="confirmpassword" id="confirmpassword" required value="" placeholder="Confirm Password"> <br>
-			<p>By signing up, you agree to our<a href="#">Term of Use</a> and<a href="#">Privacy Policy.</a></p>
+			<p>By signing up, you agree to our<a href="terms.php">Term of Use</a> and<a href="policy.php">Privacy Policy.</a></p>
 			<button type="submit" name="submit">Sign Up</button>
 			<p>Already have an account?<a href="login.php">Login</a></p>
 		</form>
