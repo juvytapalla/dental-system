@@ -124,7 +124,7 @@
             <a href="#">Learn Our Story</a>
         </li>
         <li>
-            <a href="#">How It Works</a>
+            <a href="help.php">How It Works</a>
         </li>
         <li>
             <a href="#">Terms of Use</a>
