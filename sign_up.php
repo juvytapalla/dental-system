@@ -36,28 +36,30 @@ if(isset($_POST["submit"])){
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Sign Up</title>
+        <link rel="icon" type="image/x-icon" href="img/iconn.ico">
+        <title>Dental Clinic</title>
+		<link rel="stylesheet" href="logreg.css">
 	</head>
 <body>
-	
-	 <h1>Sign Up</h1>
-    <form class="" action="" method="post" autocomplete="off">
-        <!-- <label for="first_name">First Name : </label> -->
-        <input type="text" name="first_name" id="first_name" required value="" placeholder="First Name :"> <br>
-        <!-- <label for="last_name">Last Name : </label> -->
-        <input type="text" name="last_name" id="last_name" required value="" placeholder="Last Name :"> <br>
-        <!-- <label for="contact_no">Contact Number : </label> -->
-        <input type="number" name="contact_no" id="contact_no" required value="" placeholder="Contact Number :"> <br>
-        <!-- <label for="email">Email : </label> -->
-        <input type="email" name="email" id="email" required value="" placeholder="Email:"> <br>
-        <!-- <label for="password">Password : </label> -->
-        <input type="password" name="password" id="password" required value="" placeholder="Password :"> <br>
-        <!-- <label for="confirmpassword">Confirm Password : </label> -->
-        <input type="password" name="confirmpassword" id="confirmpassword" required value="" placeholder="Confirm Password :"> <br>
-        <p>By signing up, you agree to our Term of Use and Privacy Policy.</p>
-        <button type="submit" name="submit">Sign Up</button>
-        <p>Already have an account?<a href="login.php">Login</a></p>
-    </form>
-	
+    <section class="sig">
+	<div class="wrapper">
+		<a href="index.php"><img src="img/logo.png"></a>
+		<h1>Sign Up</h1>
+		<form class="" action="" method="post" autocomplete="off">
+			<input type="text" name="first_name" id="first_name" required value="" placeholder="First Name"> <br>
+			<input type="text" name="last_name" id="last_name" required value="" placeholder="Last Name"> <br>
+			<input type="number" name="contact_no" id="contact_no" required value="" placeholder="Contact Number"> <br>
+			<input type="email" name="email" id="email" required value="" placeholder="Email"> <br>
+			<input type="password" name="password" id="password" required value="" placeholder="Password"> <br>
+			<input type="password" name="confirmpassword" id="confirmpassword" required value="" placeholder="Confirm Password"> <br>
+			<p>By signing up, you agree to our<a href="#">Term of Use</a> and<a href="#">Privacy Policy.</a></p>
+			<button type="submit" name="submit">Sign Up</button>
+			<p>Already have an account?<a href="login.php">Login</a></p>
+		</form>
+	</div>
+    </section>
+	<section class="foot">
+	<p class="copyright"> <i>© MATES 2023 All Rights Reserved</i></p>
+	</section>
 </body>
 </html>
