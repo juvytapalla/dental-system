@@ -33,22 +33,33 @@ if (isset($_POST["submit"])){
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Login</title>
+		<link rel="icon" type="image/x-icon" href="img/iconn.ico">
+    <title>Dental Clinic</title>
+		<link rel="stylesheet" href="logreg.css">
 	
 	</head>
 <body>
-	
-	<h1>Log In</h1>
-    <form action="" class="" method="post" autocomplete="off">
-        <!-- <label for="email">Email :</label> -->
-        <input type="text" name="email" id="email" required value="" placeholder="Email :"> <br>
-        <!-- <label for="password">Password :</label> -->
-        <input type="text" name="password" id="password" required value="" placeholder="Password :"> <br>
-        <p>Forgot Password?</p>
-        <button type="submit" name="submit">Login</button>
-        <p>Don't have an account?</p>
-		<a href="sign_up.php"><p style="color:black">Sign Up</p></a>
-    </form>
-	
+	<section class="log">
+	<div class="wrapper">
+		<a href="index.php"><img src="img/logo.png"></a>
+		<h1>Log In</h1>
+		<h2>Get Starter Now!</h2>
+		<h3>Elevate Your Dental Experience</h3>
+		<form action="" class="" method="post" autocomplete="off">
+			<input type="text" name="email" id="email" required value="" placeholder="Email"> <br>
+			<input type="text" name="password" id="password" required value="" placeholder="Password"> <br>
+			<div class="recover">
+				<a href="#">Forgot Password?</a>
+			</div>
+			<button type="submit" name="submit">Login</button>
+			<div class="member">
+				Don't have an account? <a href="sign_up.php">Sign Up</a>
+			<div>
+		</form>
+	</div>
+	</section>
+	<section class="foot">
+	<p class="copyright"> <i>© MATES 2023 All Rights Reserved</i></p>
+	</section>
 </body>
 </html>
