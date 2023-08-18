@@ -127,10 +127,10 @@
             <a href="help.php">How It Works</a>
         </li>
         <li>
-            <a href="#">Terms of Use</a>
+            <a href="terms.php">Terms of Use</a>
         </li>
         <li>
-            <a href="#">Privacy Policy</a>
+            <a href="policy.php">Privacy Policy</a>
         </li>
     </ul>
     <hr>
