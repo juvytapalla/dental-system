@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+body{
+	background: #dfe9f5;
+}
+.log{
+	width:100%;
+	height: auto;
+	align-self: center;
+	padding-top: 30px;
+}
+.sig{
+	width:100%;
+	height: auto;
+	align-self: center;
+	padding-top: 20px;
+}
+.wrapper{
+	width: 330px;
+	padding: 2rem 1rem;
+	margin: 50px auto;
+	background-color: #fff;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+img{
+	display: block;
+	position: static;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+h1{
+	font-size: 2rem;
+	color: #47b5ff;
+	margin-bottom: 1.2rem;
+}
+h2{
+	font-size: 15px;
+	color: #464647;
+}
+h3{
+	font-size: 15px;
+	color: #464647;
+	margin-bottom: 1.2rem;
+}
+	
+form input{
+	width: 92%;
+	outline: none;
+	border: 1px solid #fff;
+	padding: 12px 20px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	background: #e4e4e4;
+}
+form button{
+	font-size: 1rem;
+	margin-top: 1.8rem;
+	padding: 15px 0;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	width: 90%;
+	color: #fff;
+	cursor: pointer;
+	background: #47b5ff;
+}
+form button:hover{
+	background: rgba(17,107,143,0.877);
+}
+input:focus{
+	border: 1px solid rgb(192,192,192);
+}
+form p{
+	font-size: 0.8rem;
+	margin-top: 10px;
+}
+form p a{
+	color: black;
+	font-weight: bold;
+	margin-left: 5px;
+	text-decoration: none;
+	color: #464647;
+}
+form p a:hover{
+	text-decoration: underline;
+	color: #47b5ff;
+}
+.recover{
+	text-align: right;
+	font-size: 0.8rem;
+	margin: 0.3rem 1.4rem 0 0;
+}
+.recover a{
+	text-decoration: none;
+	color: #464647;
+	font-weight: 400;
+}
+.recover a:hover{
+	text-decoration: underline;
+	font-weight: 400;
+}
+.member{
+	font-size: 0.8rem;
+	margin-top: 10px;
+}
+.member a{
+	text-decoration: none;
+	color: #464647;
+	font-weight: 700;
+}
+.member a:hover{
+	text-decoration: underline;
+	font-weight: 700;
+	color: #47b5ff;
+}
+.foot {
+	margin-top: 50px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 13px;
+	color: #aaa;
+}
+
+@media screen and (min-width: 992px) {
+	.log{
+		width:100%;
+		height: auto;
+		align-self: center;
+		padding-top: 150px;
+	}
+	.sig{
+		width:100%;
+		height: auto;
+		align-self: center;
+		padding-top: 75px;
+	}
+}

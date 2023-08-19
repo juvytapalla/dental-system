@@ -12,7 +12,7 @@ if (isset($_POST["submit"])){
         if($password == $row["password"]){
             $_SESSION["login"] = true;
             $_SESSION["id"] = $row["id"];
-            header("Location:index.php");
+            header("Location:homepage.php");
         }
         else{
             echo
@@ -33,15 +33,15 @@ if (isset($_POST["submit"])){
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Login</title>
+		<link rel="icon" type="image/x-icon" href="img/iconn.ico">
+    <title>Dental Clinic</title>
 		<link rel="stylesheet" href="logreg.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 	
 	</head>
 <body>
-	
+	<section class="log">
 	<div class="wrapper">
-		<a href="#"><img src="img/logo.png"></a>
+		<a href="index.php"><img src="img/logo.png"></a>
 		<h1>Log In</h1>
 		<h2>Get Starter Now!</h2>
 		<h3>Elevate Your Dental Experience</h3>
@@ -57,6 +57,9 @@ if (isset($_POST["submit"])){
 			<div>
 		</form>
 	</div>
-	
+	</section>
+	<section class="foot">
+	<p class="copyright"> <i>© MATES 2023 All Rights Reserved</i></p>
+	</section>
 </body>
 </html>
