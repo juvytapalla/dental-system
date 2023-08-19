@@ -9,25 +9,31 @@ body{
 	background: #dfe9f5;
 }
 .log{
-	width:100%;
-	height: auto;
-	align-self: center;
-	padding-top: 30px;
+	min-height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .sig{
-	width:100%;
-	height: auto;
-	align-self: center;
-	padding-top: 20px;
+	min-height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .wrapper{
 	width: 330px;
-	padding: 2rem 1rem;
-	margin: 50px auto;
+	padding: 20px;
+	margin: 0;
 	background-color: #fff;
 	border-radius: 10px;
 	text-align: center;
 	box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+.error-msg{
+	margin:10px 0;
+	display: block;
+	color: crimson;
+	font-size: 20px;
 }
 img{
 	display: block;
@@ -50,7 +56,17 @@ h3{
 	color: #464647;
 	margin-bottom: 1.2rem;
 }
-	
+#eye{
+    margin-left: -40px;
+    cursor: pointer;
+	z-index: 100;
+	color:#7a797e;
+}
+
+.pass{
+	margin-left: -20px;
+}
+
 form input{
 	width: 92%;
 	outline: none;
@@ -109,7 +125,7 @@ form p a:hover{
 }
 .member{
 	font-size: 0.8rem;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 .member a{
 	text-decoration: none;
@@ -122,24 +138,8 @@ form p a:hover{
 	color: #47b5ff;
 }
 .foot {
-	margin-top: 50px;
-	padding-top: 20px;
+	margin-bottom: 5px;
 	text-align: center;
 	font-size: 13px;
 	color: #aaa;
-}
-
-@media screen and (min-width: 992px) {
-	.log{
-		width:100%;
-		height: auto;
-		align-self: center;
-		padding-top: 150px;
-	}
-	.sig{
-		width:100%;
-		height: auto;
-		align-self: center;
-		padding-top: 75px;
-	}
 }
