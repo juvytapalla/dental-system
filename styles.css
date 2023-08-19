@@ -108,7 +108,7 @@ button {
 }
 
 .home__title {
-  font-size: clamp(1.5625rem, 0.8049rem + 3.7879vw, 3.125rem);
+  font-size: clamp(1.6875rem, 1.3416rem + 1.7293vw, 3.125rem);
   line-height: 140%;
   margin-bottom: 30px;
   color: #fff;
@@ -430,7 +430,7 @@ button {
     grid-template-columns: auto auto;
     grid-template-areas: "column2 column1";
     column-gap: 16px;
-    padding-top: 150px;
+    padding-top: 100px;
   }
 
   .home__img {
